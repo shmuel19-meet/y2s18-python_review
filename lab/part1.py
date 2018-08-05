@@ -1,13 +1,15 @@
 # Part 1 of the Python Review lab.
 
+BIG_NUMBER = 3953531
+
 def hello_world():
-	pass
+	print("Hello World")
 
 def greet_by_name(name):
-	pass
+	print("Hello", name)
 
 def encode(x):
-	pass
+	return x*BIG_NUMBER
 
 def decode(coded_message):
-	pass
+	return decoded_message/BIG_NUMBER
